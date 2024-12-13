@@ -1,0 +1,21 @@
+Mutable vs Immutable
+Mutable: Can be changed after creation. (e.g., lists, dictionaries)   
+Immutable: Cannot be changed after creation. (e.g., numbers, strings, tuples)   
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+If you create a variable in python and assign a value to  it 
+
+let's say 
+
+"x = 7"
+
+A 7 value is created and x is pointed to it, imagine 7 to be in a box.
+Now if you create another variable and give a value of  7 to it, it is going to point to the same place where x is pointing to.
+This is simply how smart python is, it refrains from wasting space when it can be avoided.            
+
+So, integers, float, string, etc are datatypes that are immutable as they do not change the value in the place they are present but reference to another location.
+
+
+Mutable datatypes are Lists, Dictionaries and Sets
